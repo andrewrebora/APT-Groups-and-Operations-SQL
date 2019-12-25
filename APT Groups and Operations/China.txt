@@ -1,0 +1,563 @@
+﻿CREATE TABLE China(
+Common_Name VARCHAR(1000),
+CrowdStrike VARCHAR(1000),
+IRL VARCHAR(1000),
+Kaspersky VARCHAR(1000),
+Secureworks VARCHAR(1000),
+Mandiant VARCHAR(1000),
+FireEye VARCHAR(1000),
+Symantec VARCHAR(1000),
+iSight VARCHAR(1000),
+Cisco_SourcefireVRT__Talos VARCHAR(1000),
+Palo_Alto_Unit_42 VARCHAR(1000),
+Other_Names VARCHAR(1000),
+Operation_1 VARCHAR(1000),
+Operation_2 VARCHAR(1000),
+Operation_3 VARCHAR(1000),
+Operation_4 VARCHAR(1000),
+Toolset__Malware VARCHAR(1000),
+Targets VARCHAR(1000),
+Modus_Operandi VARCHAR(1000),
+Overlaps_to VARCHAR(1000),
+Comment VARCHAR(1000)
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Comment Crew', 'Comment Panda', 'PLA Unit 61398', '', 'TG-8223', 'APT1', '', '', 'BrownFox', 'Group 3', '', 'GIF89a, ShadyRAT, Shanghai Group, Byzantine Candor', 'Shady RAT', 'GhostNet', '', '', 'WEBC2, BISCUIT, and many others', 'U.S. cybersecurity firm Mandiant, later purchased by FireEye, released a report in February 2013 that exposed one of Chinas cyber espionage units, Unit 61398. The group, which FireEye called APT1, is a unit within Chinas Peoples Liberation Army (PLA) that has been linked to a wide range of cyber operations targeting U.S. private sector entities for espionage purposes. The comprehensive report detailed evidence connecting APT1 and the PLA, offered insight into APT1s operational malware and methodologies, and provided timelines of the espionage it conducted.', '', '' ,''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'APT2', 'Putter Panda', 'PLA Unit 61486', '', 'TG-6952', 'APT2', '', '', '', 'Group 36', '', 'SearchFire', '', '', '', '', 'Their activities are commonly known to be exploiting CVE-2012-0158 (MSOffice vulnerability in MSCOMCTL.OCX) in SpearPhising operations. Related malware: Moose, Warp, MSUpdater', 'This threat actor targets firms in the technology (communications, space, aerospace), research, defense, and government sectors in the United States for espionage purposes. The tools and infrastructure it uses overlap with PLA Unit 61398.', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'UPS', 'Gothic Panda', '', '', 'TG-0110', 'APT3', '', 'Buckeye', 'UPS Team', 'Group 6', '', 'Boyusec – the Guangzhou Boyu Information Technology Company, Ltd', 'Clandestine Fox', 'Double Tap', 'Clandestine Wolf', '', 'Shotput, Pirpi, PlugX/Sogu, Kaba, Cookie Cutter, many 0days: IE, Firefox, and Flash, SportLoader, Shadow Brokers exploits, DoublePulsar, Bemstour, Filensfer', 'This threat actor targets and compromises entities in the defense, construction, technology, and transportation sectors. Up until 2015, it was primarily focused on U.S. and UK entities, but it shifted to Hong Kongâ€“based targets afterward. Aerospace and Defence; Construction and Engineering; Energy; High Tech; Nonprofit; Telecommunications; Transportation', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'IXESHE', 'Numbered Panda', '', '', 'TG-2754 (tentative)', 'APT12', 'BeeBus', '', 'Calc Team', 'Group 22', '', 'DynCalc, Crimson Iron, DNSCalc', 'NYT Oct 2012', '', '', '', 'Etumbot, Riptide, Hightide, ThreeByte, Waterspout, Mswab, Gh0st, ShowNews, 3001', 'This threat actor targets organizations in Japan, Taiwan, and elsewhere in East Asia including electronics manufacturers and telecommunications companies for espionage purposes.', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'APT16', '', '', '', '', 'APT16', '', '', '', '', '', '', '', '', '', '', 'ELMER backdoor, Gh0st, HTRAN, UNICAT,Poison Ivy, Pandora', 'This threat actor targets and compromises Japanese and Taiwanese entities in the finance, tech, media, and government sectors.', 'Spear phishing email delivering a malicious Microsoft Word document exploiting EPS dict copy use-after-free vulnerability, and the local Windows privilege escalation vulnerability CVE-2015-1701. The successful exploitation of both vulnerabilities led to the delivery of either a downloader (IRONHALO), or a backdoor (ELMER). Also known to be using compromised VPN credentials to maintain network persistency.', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Hidden Lynx', 'Aurora Panda', '', '', '', 'APT17', 'Deputy Dog', 'Hidden Lynx', 'Tailgater Team', 'Group 8', '', '"Axiom, SportsFans, Winnti Umbrella', 'Ephemeral Hydra', '', '', '', 'BLACKCOFFEE, WEBCnC, Joy RAT, PlugX, Trojan.Naid, Backdoor.Moudoor, Backdoor.Vasport, Backdoor.Boda, Trojan.Hydraq, ZxShell, Sakula, China Chopper, DestroyRAT', 'Government, defense & aerospace, industrial engineering, NGOs', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Wekby', 'Dynamite Panda', '', '', 'TG-0416', 'APT18', '', '', '', '', '', 'TA428', 'Maudi', '', '', '', 'HTTPBrowser, TokenControl, HcdLoader, PisLoader', 'Aerospace and Defence; Construction and Engineering; Education; Health and Biotechnology; High Tech; Telecommunications; Transportation', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Axiom', '', '', '', '', 'APT17', '', '', 'Tailgater Team', 'Group 72', '', 'Dogfish (iDefense), Deputy Dog (iDefense), Winnti Umbrella', 'SMN', '', '', '', 'Winnti, Gh0st RAT, PoisonIvy, HydraQ, Hikit, ZxShell, Deputy Dog, Derusbi, PlugX, HTRAN, HDRoot, Fscan, Timestomper', '', '', 'Shell Crew', 'Use Skeleton Key on DCs'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Winnti Group', 'Wicked Panda', '', '', '', 'APT41', '', '', '', '', '', 'Winnti Umbrella, BARIUM, LEAD', '', '', '', '', 'Winnti, AceHash, PlugX, Webshells, ZxShell', 'ThyssenKrupp, Gameforge, Valve, Teamviewer,Siemens, Sumitomo, BASF, Covestro, Shin-Etsu, Bayer, Roche', '', 'Deep Panda, Wicked Spider', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Shell Crew', 'Deep Panda', '', 'WebMasters', '', 'APT19', 'KungFu Kittens', '', '', 'Group 13', '', 'Sh3llCr3w, PinkPanther, Winnti Group', 'Anthem', 'OPM', 'Anthem Hack', '', 'Sakula/Sakurel, Derusbi, Scanbox Framework, many Webshells including China Chopper, WCE', '', '', 'Axiom, Winnti', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Naikon', 'Lotus Panda', 'PLA Unit 78020', 'Naikon', '', 'APT30', '', 'Thrip', '', '', '', '', 'MsnMM', 'Naikon', 'Camera Shy', '', 'RARSTONE, BACKSPACe, NETEAGLE, XSControl', 'Satellite communications operator, Telecoms, and Defense Companies, Hong Kong', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Lotus Blossom', '', '', 'Spring Dragon', '', '', '', '', '', '', 'Lotus Blossom', 'ST Group, sile', 'Operation Lotus Blossom', '', '', '', 'Elise Backdoor, Lstudio, CVE-2017-11882', '', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'APT6', '', '', '', '', 'APT6', '', '', '', '', '', '1.php Group', '', '', '', '', 'Poison Ivy', 'US Government Organizations', '', '', 'Overlaps with Operation Night Dragon'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'APT26', 'Turbine Panda', '', '', '', 'APT26', '', '', 'Hippo Team', '', '', 'JerseyMikes', '', '', '', '', 'Cobalt, QuickPulse, credential stealers such as WCE, GSECDUMP, COATHOOK, HTRAN, SOGU, TWOCHAINS, QUICKBALL', 'Affected Industry: Aerospace and Defense, business and Professional Services/Legal/Accounting, High Tech Software and hardware services', 'Supply-chain attacks such as strategic web compromise (SWC) where the actor compromise 3rd-party service provider hosting the victim websites', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Mirage', 'Vixen Panda', 'Ke3Chang', 'Playful Dragon', 'GREF', 'APT15', '', '', 'Social Network Team', '', '', 'Mirage Team, Lurid, Social Network Team, Royal APT, Metushy, Winnti Umbrella', 'Umbrella Revolution', '', '', '', 'Mirage, (Nvidia program side-loading) PlugX, XSLCmd, TidePool, BS2005, RoyalCli, iWebRat, Russian-language decoy document, ENFAL, ENDCMD, QUICKHEAL, SOGU, CYFREE, MIRAGE, NOISEMAKER, QUICKHEAL, SWALLOWFLY', 'PH, VN, TW, US, UK, IT, PL, UN, SG, NATO - Gov, Political party', '', '', 'Some vendors track this group in up to 3 separate groups'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'NetTraveler', '', '', 'NetTraveler', '', 'APT21', '', '', '', '', '', '', '', '', '', '', 'NetTraveler', 'This threat actor targets computer networks associated with Tibetan and Uyghur activists for espionage purposes.', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Ice Fog', 'Dagger Panda', '', 'IceFog', '', '', 'ICEFOG', '', '', '', '', 'Fucobha', '', '', '', '', 'Dagger Three (C2 software), Fucobha Backdoor', 'This threat actor targets government institutions, military contractors, maritime and shipbuilding groups, telecommunications operators, and others, primarily in US, Taiwan, Japan and South Korea.', '', 'Links to Onion Dog', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Beijing Group', 'Sneaky Panda', '', '', '', '', '', '', '', '', '', 'Hydraq, SIG22, Elderwood, Elderwood Gang', 'Aurora', '', '', '', 'Hydraq, Elderwood Project', 'This threat actor targets private sector companies in the defense, shipping, aeronautics, arms, and energy sectors, as well as nonprofits and financial firms.', '', '', 'Possibly assisted in Operation Aurora, the RSA incident, and the Joint Strike Fighter Program compromise'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'APT22', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'China Chopper', '', '', '', 'Possible overlap with Beijing Group'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Suckfly', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Nidiran, Korplug, PlugX', 'Indian organisations and Republic of Korea', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'APT4', 'Samurai Panda', 'PLA Navy', '', '', 'APT4', 'APT4', '', 'Wisp Team', '', '', '', '', '', '', '', '', '', '', '', 'PdPD (50 64 50 44) marker for encrypted binaries'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Pitty Tiger', 'Pitty Panda', '', '', '', '', 'Pitty Tiger', '', '', '', '', '', '', '', '', '', 'PittyTiger, Paladin RAT', '', '', '', 'Pitty TigerS was originally the name of a malware payload by the malware tracker blog. Airbus and FireEye identified the actor as Chinese. CrowdStrike uses "tiger" when naming adversaries alligned with India.  Crowdstrike associates the actor with the name "Pitty Panda" conforming to their naming convention for Chinese actors.'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Scarlet Mimic', '', '', '', '', '', '', '', '', '', 'Scarlet Mimic', '', '', '', '', '', 'FakeM, Psylo, MobileOrder', 'Uyghur and Tibetan activists as well as those who are interested in their causes', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'C0d0so', 'Codoso', '', '', '', 'APT19', 'Sunshop Group', '', '', '', '', '', 'Bassos Campaign', '', '', '', 'Bergard Trojan, Derusbi, TXER', 'Forbes,  Defense, Finance, Energy, Government, Political Dissidents, Global Think Tanks', 'Watering Hole', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'SVCMONDR', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'CVE-2015-2545', 'Taiwan, Thailand', '', 'Tamper Panda', 'PdPD (50 64 50 44) marker for encrypted binaries'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Wisp Team', '', '', '', '', 'APT4', '', '', 'Wisp Team', '', '', '', '', '', '', '', '', 'Defense Industrial Base, US Government', '', '', 'iSight has mentioned tracking a China-nexus group they dub "Wisp Team" - have not resolved this w/ other naming conventions'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Mana Team', '', '', '', '', '', '', '', 'Mana Team', '', '', '', '', '', '', '', '', 'Australia', '', '', 'iSight has mentioned tracking a China-nexus activity they dub "Mana Team", targeting Australian interests - have not resolved this w/ other naming conventions'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'TEMP.Zhenbao', '', '', '', '', '', '', '', 'TEMP.Zhenbao', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'SPIVY', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Hong Kong dissidents', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Mofang', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'ShimRAT, ShimRATReporter', 'Government, military, Critical Infrastructure,Automotive Industry*,Weapon Industry*, This threat actor compromises government and critical infrastructure entities, primarily in Myanmar, for espionage purposes. Myanmar, Canada, United States, Germany, India, South Korea, Singapore', '', 'Superman', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'DragonOK', '', '', '', '', '', 'DragonOK', '', '', '', 'DragonOK', '', '', '', '', '', 'CVE-2015-1641, Sysget, IsSpace, Rambo Backdoor', 'Japan', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Group 27', '', '', '', '', '', '', '', '', 'Group 27', '', '', 'Seven Pointed Dagger', '', '', '', 'Trochilus RAT, PlugX, EvilGrab, 3102 variant of 9002 RAT', '', '', 'Seven Pointed Dagger, Trochilus RAT', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Tonto Team', '', '', 'CactusPete', '', '', 'Tonto Team', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'TA459', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'PlugX, NetTraveler, ZeroT, PCrat, Gh0st', 'Central Asian countries, Russia, Belarus, Mongolia, and others', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Tick', '', '', '', 'BRONZE BUTLER', '', '', 'Tick', '', '', '', 'REDBALDKNIGHT', 'ENDTRADE', '', '', '', 'whoami, procdump, VBS, WCE, Mimikatz, gsecdump, PsExec, Daserf, Gofarer, Datper', '', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Lucky Cat', '', '', '', '', '', '', '', '', '', '', 'Shadow Network, SabPub', '', '', '', '', '', 'A threat actor targets computer networks associated with Tibetan activists, as well as military research and development, aerospace, engineering, and shipping industries in India and Japan.', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'TEMP.Periscope', 'Leviathan', '', '', '', 'APT40', 'Temp.Periscope', '', '', '', '', 'Temp.Jumper, GADOLINIUM, MUDCARP', '', '', '', '', 'AIRBREAK, BADFLICK, PHOTO, HOMEFRY, LUNCHMONEY, MURKYTOP, China Chopper, Beacon, BLACKCOFFEE, CVE-2017-11882', 'Maritime-related targets across multiple verticals, including engineering firms, shipping and transportation, manufacturing, defense, government offices, and research universities', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'PassCV', '', '', '', 'TG-3279', '', '', '', '', '', '', 'Winnti Umbrella, China Cracking Group', '', '', '', '', 'Sabre, Kitkiot, Conpee, Etso, Runxx, dnsenum, s (custom port scanner), rdp_crk, icmp_shell, Jynxkit, Gh0st RAT, NetCommander, Carberp RAT', 'Gaming Companies', '', '', 'Winnti', 'Personas: Laurentiu Moon, Sincoder'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'BARIUM', '', '', '', 'TG-2633', '', '', '', '', '', '', 'Winnti Umbrella, BRONZE ATLAS', '', '', '', '', 'Winnti Rootkit malware', 'Electronic gaming, multimedia, Internet content industries, technology companies', '', 'Winnti', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'LEAD', '', '', '', '', '', '', '', '', '', '', 'Winnti Umbrella', 'Bayer Cyber Attack', '', '', '', 'Winnti Rootkit malware', 'Multinational, multi-industry companies, textiles, chemicals, electronics, pharmaceutical companies, manufacturing', '', 'Winnti', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Iron Group', '', '', '', '', '', '', '', '', '', '', 'Rocke', '', '', '', '', 'XBash', 'Cybercrime, Cryptomining, Cryptojacking', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Anchor Panda', 'Anchor Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Adobe Gh0st, Poison Ivy, Torn RAT', 'This threat actor targets government and private sector entities interested in maritime issues in the South China Sea for espionage purposes. Maritime satellite systems, aerospace companies, and defense contractors.', '', '', 'PdPD (50 64 50 44) marker for encrypted binaries'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Big Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Financial services firms', '', '', 'Mentioned by Alperovitch in 2013 article as targeting financial services industry'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Electric Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Eloquent Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Emissary Panda', 'Emissary Panda', '', 'LuckyMouse', 'BRONZE UNION, TG-3390', 'APT27', '', '', 'TEMP.Hippo', 'Group 35', '', 'ZipToken, Iron Tiger', 'Iron Tiger', 'A Tale of Two Targets', '', '', 'PlugX, China Chopper Webshell, HttpBrowser, Hunter, ASPXTool, wce, gsecdump, nbtscan, htran', 'US Gov and contractors, Western think tanks', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Foxy Panda', 'Foxy Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Technology & Communications', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Gibberish Panda', 'Gibberish Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Goblin Panda', 'Goblin Panda', 'Hellsing', 'Cycldek', '', '', '', '', '', '', '', 'Cycldek, Conimes Team, China1937CN Team', '', '', '', '', 'ZeGhost, PlugX', 'Southeast Asia, Government of Vietnam', '', '', 'Weaponizer leaked, new activity wrongly attributed to this long inactive group, possible links to Icefog/Dagger Panda and Temp.Periscope/APT40'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Hammer Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Russia', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Hurricane Panda', 'Hurricane Panda', '', '', '', 'APT31', '', 'Black Vine', 'TEMP.Avengers', '', '', 'Zirconium', 'Umbrella Revolution', 'Op. Poisoned Hurricane', '', '', 'China Chopper Webshell, PlugX, Mimikatz, Sakula', 'Aerospace, Healthcare, Energy (gas & electric turbine manufacturing), Military and defense, Finance, Agriculture, Technology, Japan, United States, United Kingdom, India, Canada, Brazil, South Africa, Australia, Thailand, South Korea, France, Switzerland, Sweden, Finland, Norway', '', '', 'Used free DNS servers provided by Hurricane Electric'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Impersonating Panda', 'Impersonating Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Financial sector', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Judgement Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Spear-phishing, URL “web bugs” and scheduled tasks to automate credential harvesting', 'Upstream providers (e.g., law firms and managed service providers) to support additional intrusions against high-profile assets', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Karma Panda', 'Karma Panda', 'CactusPete', 'CactusPete', '', '', '', '', 'Tonto Team', '', '', 'Bisonal (malware), Lone Ranger', '', '', '', '', '', 'Dissident groups', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Keyhole Panda', 'Keyhole Panda', '', '', '', '', '', '', 'temp.bottle', '', '', '', '', '', '', '', '', 'Electronics & Communications', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Kryptonite Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '8.t exploit document builder', 'Cambodia', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Mustang Panda', '', '', 'HoneyMyte', '', '', '', '', 'Temp.Hex', '', '', '', '', '', '', '', 'PlugX', 'Mining sector in Mongolia, private individuals |=| gathering geo-political and economic intelligence.', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Night Dragon', 'Night Dragon', '', '', '', '', '', '', '', '', '', '', 'Night Dragon', '', '', '', '', 'A threat actor compromised U.S. oil companies through spear phishing and remote administration tools. Oil, Energy and Petrochemical (OpNightDragon)', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Nightshade Panda', 'Nightshade Panda', '', '', '', 'APT9', '', '', '', '', '', '', 'Agriculture in EU', '', '', '', 'Poison Ivy, PlugX, BIGJOLT,FUNRUN,GH0ST,HOMEUNIX,JIM A,PHOTO,POISON IVY,SKINNYGENE,SOGU,VICEROY,VIPSH ELL,WETHEAD,XDOOR,ZXSHELL', 'HK, US, SG, MY, JP, IN, KR, TH, TW - Aerospace, Agriculture, Construction, Energy, Healthcare, ,High Tech, Media, Transportation', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Nomad Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '8.t exploit document builder', 'Central Asian nations', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Pale Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'PlugX', '', '', '', 'Mentioned in 2014 Crowdstrike Global Threat Intel Report pg 22'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Pirate Panda', 'Pirate Panda', '', '', '', '', '', '', '', '', '', 'KeyBoys', '', '', '', '', '', '', 'Southeast Asia', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Poisonous Panda', 'Poisonous Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Energy technology, G20, NGOs, Dissident Groups', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Predator Panda', 'Predator Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'PlugX', 'Southeast Asia', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Radio Panda', 'Radio Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Sabre Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Umbrella Revolution', '', '', 'Listed in 2014 Global Threat Report (pg 9) - observed in Umbrella Revolution related activity (pg 28)'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Spicy Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Listed in 2014 Global Threat Report - no more details pg 9'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Stone Panda', 'Stone Panda', '', '', '', 'APT10', '', '', 'MenuPass Team', '', 'menuPass', 'Red Apollo, CVNX, POTASSIUM, Cloud Hopper, Hogfish', 'menuPass', 'Dust Storm', 'Cloud Hopper', 'ChessMaster', 'Poison Ivy, EvilGrab, IEChecker, ChChes, PlugX, RedLeaves, Quasar, CobaltStrike, Trochilus, UPPERCUT (aka ANEL), StoneNetLoader', 'Healthcare; Pharma, Defense, Aerospace, Government, MSP', 'Data exfil over common TCP services (RDP, HTTPS)', 'Compromise & Persistence: BUGJUICE, SOGU, SNUGRIDE, Group 27', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Temper Panda', 'Temper Panda', 'Admin338', 'Team338', '', '', 'admin@338', '', '338 Team', '', '', '', 'Umbrella Revolution', 'admin@338', '', '', 'Poison Ivy, jRat, LOWBALL, BUBBLEWRAP', 'Target Gov + Military, DIB, Finiancial/Think Tanks, Telco, Academia, Religious organisations', '', '', 'PdPD (50 64 50 44) marker for encrypted binaries'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Test Panda', 'Test Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Toxic Panda', 'Toxic Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Dissident Groups', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Union Panda', 'Union Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Industrial companies', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Violin Panda', 'Violin Panda', '', '', '', 'APT8', 'APT20', '', '', '', '', 'Covert Grove', 'Nitro Attacks', 'th3bug', 'Wocao', '', 'Poison Ivy, CAKELOG, CANDYCLOG, COOKIECLOG, CETTRA', 'Energy, Chemical Industry, Healthcare, and Pharma', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Wet Panda', 'Wet Panda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'PlugX', 'Energy', '', '', 'Mentioned in 2014 Global Threat Report using PlugX (pg 22)'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'?', '', '', '', '', '', '', '', '', '', '', '', 'Four Element Sword', '', '', '', 'UP007, SLServer, Grabber, T9000, Kivars, PlugX, Gh0StRAT, Agent.XST', 'Tibetans, Hong Kong, Taiwanese interests and human rights workers, Uyghur Interests', 'Active', 'IXESHE (see PWC report)', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'?', '', '', '', '', '', '', '', '', '', '', '', 'INOCNATION', '', '', '', '', '', '', 'IXESHE (malware), Etumbot, Numbered Panda', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'?', '', '', '', '', '', '', '', '', '', '', '', 'Poisoned Helmand', '', '', '', '', 'Afghan Government', 'Watering Hole', 'Operation Poisoned Hurricane', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'?', '', '', '', '', '', '', '', '', '', '', '', 'Titan Rain', '', '', '', '', 'USA', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'?', 'Maverick Panda', 'PLA Navy', 'Sykipot', '', '', '', '', '', '', '', '', 'Sykipot, Getkys, Wyksol', '', '', '', '', 'DIB (Defence Industrial Base) and other government organizations', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Calypso', '', '', '', '', '', '', '', '', '', '', 'Links to Skyipot, Pitty Tiger, Comment Crew, Mirage', '', '', '', '', 'Byebe, CMStar, Calypso RAT, PlugX', '', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Tropic Trooper', 'KeyBoy', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Poison Ivy, PCShare, Yahoyah', 'Taiwan, High-Tech in Asia, Taiwanese Government, Fossil Fuel Provider, Taiwanese, Philippine, and Hong Kong targets, focusing on their government, healthcare, transportation, and high-tech industries', '', '', 'Group based in Xiamen, in same area as PLA Navy. Likely a navy SIGINT TRB'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'APT41', '', '', '', '', 'APT41', '', '', '', '', '', '', '', '', '', '', 'CRACKSHOT, GEARSHIFT, HIGHNOON, JUMPALL, POISONPLUG, HOTCHAI, LATELUNCH, LIFEBOAT, LOWKEY, NJRAT, PACMAN, PHOTO, POTROAST, ROCKBOOT, SAGEHIRE, SWEETCANDLE, SOGU, TERA, TIDYELF, WIDETONE, WINTERLOVE, XDoor, Xmrig, ZxShell', '', '', '', 'Overlap with BARIUM and Winnti'
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Poison Carp', '', '', '', '', '', '', '', '', '', '', '', 'Evil Eye', '', '', '', '', 'This threat actor targets smartphones associated with Tibetan and Uyghur activists for espionage purposes.', 'Strategic web compromise (watering hole)', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'AVIVORE', '', '', '', '', '', '', '', '', '', '', '', 'Airbus Attack', '', '', '', 'PlugX, Mimikatz, WmiExec', 'Aerospace and defence industries in the UK and Europe', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'APT-C-01', '', '', '', '', '', '', '', '', '', '', 'PoisonVine', '', '', '', '', 'Poison Ivy, ZxShell, Kanbox RAT, CVE-2012-0158, CVE-2014-6352, CVE-2017-8759', 'Government agencies, military individuals, research institutes, maritime agencies', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'DarkUniverse', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'ItaDuke', 'Tibet and Uyghur activists, Syria, Iran, Afghanistan, Tanzania, Ethiopia, Sudan, Russia, Belarus and the United Arab Emirates', 'Spearphishing w/CVE-2013-0640 weaponized PDF', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'Taskmasters', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'RemShell, 404-Input-shell, Eternal Blue, Scheduled Tasks', 'Military, government, telecommunication, small businesses', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'GALLIUM', '', '', '', '', '', '', '', '', '', '', '', 'Soft Cell', '', '', '', 'BlackMould, China Chopper, PoisonIvy, QuarkBandit, Htran, NBTScan, PsExec, Winrar, Netcat', 'Telecom', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'RANCOR', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'KHRAT Trojan, Derusbi, Dudell, DDKONG Plugin', 'Southeast Asia', '', '', ''
+);
+
+INSERT INTO China(Common_Name, CrowdStrike, IRL, Kaspersky, Secureworks, Mandiant, FireEye, Symantec, iSight, Cisco_SourcefireVRT__Talos, Palo_Alto_Unit_42, Other_Names, Operation_1, Operation_2, Operation_3, Operation_4, Toolset__Malware, Targets, Modus_Operandi, Overlaps_to, Comment)
+VALUES
+(
+'ChinaZ', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Linux.BackDoor.Xnote.1, Linux/BillGates.Lite, Linux/UDPfker', '', '', '', ''
+);

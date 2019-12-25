@@ -1,0 +1,425 @@
+﻿CREATE TABLE Other_Actors(
+Common_Name VARCHAR(1000),
+Other_Name_1 VARCHAR(1000),
+Other_Name_2 VARCHAR(1000),
+Other_Name_3 VARCHAR(1000),
+Other_Name_4 VARCHAR(1000),
+Other_Name_5 VARCHAR(1000),
+Other_Name_6 VARCHAR(1000),
+Operation_1 VARCHAR(1000),
+Operation_2 VARCHAR(1000),
+Operation_3 VARCHAR(1000),
+Toolset__Malware VARCHAR(1000),
+Targets VARCHAR(1000),
+Origin VARCHAR(1000),
+Comment VARCHAR(1000)
+);
+
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Corsair Jackal', '', '', '', '', '', '', '', '', '', '', 'Tunesia', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'The Mask', 'Careto', '', '', '', '', '', '', '', '', '', '', '', 'Spanish Speaking Country'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'El Machete', 'Machete', 'Ragua', '', '', '', '', '', '', '', '', 'This threat actor targets military, government entities, and telecommunications providers, primarily in Latin America, for the purpose of espionage.', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Patchwork', 'Dropping Elephant', 'Chinastrats', 'Capricorn Organisation', 'APT-C-09', 'Viceroy Tiger', '', 'Hangover', 'Monsoon', '', 'Unknown Logger Public, TINYTYPHON, BADNEWS, AutoIt backdoor', 'Global, including targets in the US, Europe, and the Middle East, many of the target countries are in the area surrounding the Indian subcontinent', 'Offshore APT organization from South Asia', 'Overlaps with BITTER group'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Hellsing APT', '', '', '', '', '', '', '', '', '', '', 'Naikon', 'Asia', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Wild Neutron', 'Jripbot', 'Morpho', '', '', '', '', 'Sphinx Moth', '', '', 'Jiripbot, Hesperbot', '', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Sykipot', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Platinum', 'TwoForOne', 'DeadlyKiss', '', '', '', '', '', '', '', 'Hotpatching techniques, CVE-2015-2545', 'Primarily targets governmental organizations, defense institutes, intelligence agencies, and telecommunication providers in South and Southeast Asia', 'South East Asia', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Danti', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'SVCMONDR', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Transparent Tribe', '', '', '', '', '', '', '', '', '', '', 'Government of India diplomatic and military', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'APT32', 'Ocean Lotus', 'APT-C-00', 'SeaLotus', 'SectorF01', '', '', 'Cobalt Kitty', '', '', 'Unique suite & OTS, Microsoft ActiveMime file attachments, KerrDown, CobaltStrike, SOUNDBITE, Denis', 'This threat actor targets organizations of interest to the Vietnamese government for espionage purposes. Victims have included human rights organizations, research institutes and maritime construction firms in China, and media organizations. Heavily targeting the automotive sector since 2018.', 'Vietnam', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'BlackOasis', '', '', '', '', '', '', '', '', '', 'CVE-2015-5119 – June 2015, CVE-2016-0984 – June 2015, CVE-2016-4117 – May 2016, CVE-2017-8759 – Sept 2017, CVE-2017-11292 – Oct 2017, FinSpy Malware', 'Russia, Iraq, Afghanistan, Nigeria, Libya, Jordan, Tunisia, Saudi Arabia, Iran, Netherlands, Bahrain, United Kingdom, and Angola', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'NEODYMIUM', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'PROMETHIUM', '', '', '', '', '', '', '', '', '', 'StrongPity', '', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Andromeda Spider', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Bamboo Spider', '', '', '', '', '', '', '', '', '', 'Developed Panda Zeus', '', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Boson Spider', '', '', '', '', '', '', '', '', '', 'CoreBot', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Cobalt Spider', 'Magecart Group 4', '', '', '', '', '', '', '', '', '', 'Point of Sale', '', 'Criminal, linked to Cobalt'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Dextorous Spider', '', '', '', '', '', '', '', '', '', '', 'Retail', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Dundeon Spider', '', '', '', '', '', '', '', '', '', '', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Grim Spider', 'TEMP.MixMaster', '', '', '', '', '', '', 'Onslow, North Carolina water', 'Dataresolution.net (MSP for multiple US newpapers)', 'Ryuk', '', '', 'Criminal / Currently refers to Ryuk deployments following TrckBot infections'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Hound Spider', '', '', '', '', '', '', '', '', '', '', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Indrik Spider', '', '', '', '', '', '', '', '', '', 'Dridex', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Lunar Spider', '', '', '', '', '', '', '', '', '', 'IcedID (BokBot)', 'Financial Crime', '', 'Cooperation with Wizard Spider'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Magnetic Spider', '', '', '', '', '', '', '', '', '', '', 'Financial Crime', 'Russia', 'Russia based financial-crime motivated actor - Crowdstike 2014 Global TIR pg 57'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Mimic Spider', '', '', '', '', '', '', '', '', '', '', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Monty Spider', '', '', '', '', '', '', '', '', '', '', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Mummy Spider', 'TA542', '', '', '', '', '', '', '', '', 'Emotet', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Overlord Spider', '', '', '', '', '', '', '', '', '', '', 'Entertainment and healthcare sector', '', 'Criminal / Data Extortion'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Pinchy Spider', '', '', '', '', '', '', '', '', '', 'GandCrab', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Pizzo Spider', '', '', '', '', '', '', '', '', '', '', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Shark Spider', '', '', '', '', '', '', '', '', '', '', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Singing Spider', '', '', '', '', '', '', '', '', '', '', 'Commercial, Fiancial', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Skeleton Spider', 'FIN6', 'ITG08', 'Magecart Group 6', '', '', '', '', '', '', 'FrameworkPoS, Vawtrak/Neverquest, Ransomware', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Static Spider', '', '', '', '', '', '', '', '', '', '', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Union Spider', '', '', '', '', '', '', '', '', '', '', 'Manufacturing', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Wicked Spider', '', '', '', '', '', '', '', '', '', '', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Wizard Spider', '', '', '', '', '', '', '', '', '', 'TrickBot', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Wold Spider', '', '', '', '', '', '', '', '', '', '', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Zombie Spider', 'Pytor Levashov', 'Kelihos', '', '', '', '', '', '', '', '', '', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Curious Jackal', '', '', '', '', '', '', '', '', '', '', '', '', 'Activist'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Extreme Jackal', '', '', '', '', '', '', '', '', '', '', '', '', 'Activist'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Gekko Jackal', '', '', '', '', '', '', '', '', '', '', '', '', 'Activist'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Shifty Jackal', '', '', '', '', '', '', '', '', '', '', '', '', 'Activist'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Mythic Leopard', '', '', '', '', '', '', '', '', '', '', '', 'Pakistan', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'GravityRAT', '', '', '', '', '', '', '', '', '', '', 'India', 'Pakistan', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'SilverTerrier', '', '', '', '', '', '', '', '', '', 'Predator Pain, Pony, KeyBase, ISpySoftware, ISR Stealer, Agent Tesla, LokiBot, Zeus and Atmos, NetWire, DarkComet and NanoCore', '', 'Nigeria', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'InvisiMole', '', '', '', '', '', '', '', '', '', '', 'Russia, Ukraine', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'SideWinder-Rattlesnake', 'T-APT-04', '', '', '', '', '', '', '', '', '', 'Military, Govenment, Pakistan, South Asian countries', 'India', 'Origins believed to be traced back to 2012'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Blackgear', 'Topgear', 'Comnie', '', '', '', '', '', '', '', 'Protux, Eliriks', 'Japan, Taiwan, South Korea', '', 'Dates back to 2008'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Gorgon Group', 'Subaat', '', '', '', '', '', '', '', '', 'NanoCoreRAT, QuasarRAT, NJRAT, RevengeRat', '', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Donot Team', 'APT-C-35', 'APTC35', 'SectorE02', '', '', '', 'Lucky Elephant', '', '', 'EHDevel, yty', 'Government officials, Pakistan, Kashmir', '', 'Possible links to Hangover'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Nomadic Octopus', 'DustSquad', '', '', '', '', '', '', '', '', '', 'Central Asian users and diplomatic entities', '', 'Russian-speaking'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Anunak', 'Carbanak', 'Carbanak Group', 'Carbon Spider', '', '', '', 'Odinaff', '', '', 'Mimikatz, MBR Eraser, SoftPerfect Network Scanner, SSHd with BackDoor, Ammy Admin, CVE-2012-2539 and CVE-2012-0158, Netscan, PsExec, Backdoor Batel, Bateleur JScript Backdoor, Cobalt Strike, Sekur, Agent ORM, VB Flash, JS FLash, Bateleur', 'Banks of Russia and payment system', 'Ukraine', 'Overlaps with FIN7'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'TA505', 'SectorJ04', '', '', '', '', '', '', '', '', 'FlawedAmmyy, Remote Manipulator System', 'Financial institutions, Retail', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'TA544', '', '', '', '', '', '', '', '', '', 'URLZone, Ursnif, Panda Banker, Nymaim, Chthonic, Smoke Loader', 'Online banking, Italy, Poland, Germany, Spain, Japan', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'TA555', '', '', '', '', '', '', '', '', '', 'AdvisorsBot, PoshAdvisor', 'Hotel employees, restaurant workers, recruiters for telecom', '', 'Criminal'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Blind Eagle', 'APT-C-36', '', '', '', '', '', '', '', '', 'Imminent RAT', 'Colombian government institutions', 'South America', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Bitter', '', '', '', '', '', '', '', '', '', 'BitterRAT, ArtraDownloader', 'Pakistan, Saudi Arabia, PRC', 'Offshore APT organization from South Asia', 'ArtraDownloader: earliest timestamp Feb 2015'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Bahamut', '', '', '', '', '', '', '', '', '', '', 'Middle Eastern human rights activists', 'Offshore APT organization from South Asia', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'WindShift', '', '', '', '', '', '', '', '', '', 'WindTail, WindTape', 'Gulf Cooperation Council', 'Offshore APT organization from South Asia', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'EmpireMonkey', 'CobaltGoblin', '', '', '', '', '', 'Bank of Valletta', '', '', '', '', '', 'Criminal, overlap with FIN7 & Carbanak'
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Pacha Group', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'DNSpionage', '', '', '', '', '', '', '', '', '', '', 'Lebanon, UAE', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'Sea Turtle', '', '', '', '', '', '', 'Sea Turtle', '', '', 'DNS hijacking, CVE-2009-1151, CVE-2014-6271, CVE-2017-3881, CVE-2017-6736, CVE-2017-12617, CVE-2018-0296, CVE-2018-7600, Drupalgeddon', 'Industries: Ministries of foreign affairs, Military organizations, Intelligence agencies, Prominent energy organizations in US, Libya, Egypt, Lebanon, UAE, Albania, Cyprus, Turkey, Iraq, Jordan, Syria, Armenia, Sweden', '', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'PLATINUM', 'TwoForOne', 'DeadlyKiss', '', '', '', '', 'Hellsing', '', '', 'Hotpatching techniques, CVE-2015-2545, AMT Feature FW evasion', 'Primarily targets governmental organizations, defense institutes, intelligence agencies, and telecommunication providers in South and Southeast Asia', 'Singapore', ''
+);
+
+INSERT INTO Other_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Origin, Comment)
+VALUES
+(
+'GreyEnergy Group', '', '', '', '', '', '', '', '', '', 'Maldoc, GreyEnergy Dropper, GreyEnergy Min/FELIXROOT', 'Industries: Energy in Ukraine & Eastern Europe', '', ''
+);

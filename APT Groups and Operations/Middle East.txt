@@ -1,0 +1,122 @@
+﻿CREATE TABLE Middle_East(
+Common_Name VARCHAR(1000),
+Other_Name_1 VARCHAR(1000),
+Other_Name_2 VARCHAR(1000),
+Other_Name_3 VARCHAR(1000),
+Operation_1 VARCHAR(1000),
+Operation_2 VARCHAR(1000),
+Operation_3 VARCHAR(100),
+Origin VARCHAR(1000),
+Toolset__Malware VARCHAR(1000),
+Targets VARCHAR(1000),
+Modus_Operandi VARCHAR(1000),
+Comment VARCHAR(1000)
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Molerats', 'Gaza cyber gang', 'Gaza Hacker Team', '', 'Molerats', 'DustySky', 'TopHat', 'Gaza', 'Poison Ivy, DustySky, NeD Worm, Scote, Don’t Kill My Cat (DKMC), RTFs Exploiting CVE-2017-0199', 'Israel, Palestine, Egypt, Saudi Arabia, United Arab Emirates, Turkey, USA. Targeted sectors include governmental and diplomatic institutions, including embassies; companies from the aerospace and defence Industries; financial institutions; journalists; software developers.', 'Targeted emails with malware. fake website with malicipretending to be a legitimate iOS management software, and linking to it in an online freelancing marketplace.', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'AridViper', 'Desert Falcon', 'APT-C-23', 'Two-tailed Scorpion', '', '', '', 'Gaza', '', 'Egypt, Palestine, Israel, Jordan, UAE, Israeli-based organizations in the government, transport/infrastructure, military, and academia. One organization based in Kuwait is also as one of Arid Viper’s victims.', 'spear phishing', 'Related: Operation Advtravel'
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Volatile Cedar', '', '', '', '', '', '', 'Lebanon', 'Explosive', 'USA, Canada, UK, Turkey, Lebanon and Israel. Nation-state/political-group interests', 'The modus operandi for this attacker group initially targets publicly facing web servers, with both automatic and manual vulnerability discovery. Once in control of a server, the attackers further penetrate the targeted internal network via various means, including manual online hacking as well as an automated USB infection mechanism.', 'The main threat is sensitive data theft and cyber espionage'
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Syrian Electronic Army (SEA)', 'Deadeye Jackal', '', '', '', '', '', 'Syria', 'SeANux: Sea Shell (Basic Web Shell), Executer Webshell', 'Commercial, Financial, Media, Social Networking', '', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Cyber Caliphate Army (CCA)', 'United Cyber Caliphate (UCC)', 'Islamic State Hacking Division', '', '', '', '', 'Syria/Iraq (Islamic State)', '', '', '', 'Pro-ISIS'
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Ghost Jackal', '', '', '', '', '', '', '', '', 'Commercial, Energy, Financial', '', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Corsair Jackal', '', '', '', '', '', '', '', '', 'Commercial, Technology, Financial, Energy', '', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Extreme Jackal', '', 'Military, Government', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Electric Powder', '', '', '', 'Electric Powder', '', '', '', 'Downloader, keyloger', 'Israel Electric Company', 'Spreading malware via fake Facebook profiles and pages, breached websites, self-hosted and cloud based websites', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'APT-C-23', 'Golden Rat', 'Goldmouse', '', '', '', '', '', 'KASPERAGENT and MICROPSIA, Desert Scorpion', '', '', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'APT-C-27', '', '', '', '', '', '', 'Lebanon', 'Pallas ', '', '', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Dark Caracal', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Tempting Cedar', '', '', '', '', '', '', 'Lebanon', '', 'People in Eastern European and Middle Eastern countries', '', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'?', '', '', '', 'Big Bang', '', '', '', 'MICROPSIA', 'Palestinian authorities', '', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Sandcat', '', '', '', '', '', '', '', 'CHAINSHOT, FinFisher/FinSpy, CVE-2018-8589', '', '', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Group WITRE', '', '', '', '', '', '', '', '', 'People from the Palestinian authority and UAE', 'Rar file with a geo-political name in Arabic, usually conerns the Palestinian Authority and Gaza; VBS/SCR with the same name; Decoy Doc contains copied content that was published by media outlet-modified content-; Backdoor', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'ZooPark', 'APT-C-38', 'Saber Lion', '', '', '', '', '', '', 'Egypt, Jordan, Morocco, Lebanon, Iran, Iraqi Kurdistan', 'Android malware, Windows malware', ''
+);
+
+INSERT INTO Middle_East(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Operation_1, Operation_2, Operation_3, Origin, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'APT-C-37', 'Pat Bear', 'Racquet Bear', '', '', '', '', '', '', 'DroidJack, SpyNote, SSLove, NJRAT, H-Worm', '', ''
+);

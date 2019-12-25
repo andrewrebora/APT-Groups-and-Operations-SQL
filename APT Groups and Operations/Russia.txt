@@ -1,0 +1,159 @@
+﻿CREATE TABLE Russia(
+Common_Name VARCHAR(800),
+Other_Name_1 VARCHAR(800),
+Other_Name_2 VARCHAR(800),
+Other_Name_3 VARCHAR(800),
+Other_Name_4 VARCHAR(800),
+Other_Name_5 VARCHAR(800),
+Other_Name_6 VARCHAR(800),
+Other_Name_7 VARCHAR(800),
+Other_Name_8 VARCHAR(800),
+Other_Name_9 VARCHAR(800),
+Other_Name_10 VARCHAR(800),
+Other_Name_11 VARCHAR(800),
+Other_Name_12 VARCHAR(800),
+Secureworks VARCHAR(800),
+Operation_1 VARCHAR(800),
+Operation_2 VARCHAR(800),
+Operation_3 VARCHAR(800),
+Operation_4 VARCHAR(800),
+Operation_5 VARCHAR(800),
+Operation_6 VARCHAR(800),
+Operation_7 VARCHAR(800),
+Toolset__Malware VARCHAR(800),
+Targets VARCHAR(800),
+Modus_Operandi VARCHAR(800),
+Comment VARCHAR(800)
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Sofacy', 'APT28', 'Sednit', 'Pawn Storm', 'Group 74', 'Tsar Team', 'Fancy Bear', 'Strontium', 'Swallowtail', 'SIG40', 'Grizzly Steppe', '', '', 'IRON TWILIGHT', 'Russian Doll', 'Bundestag', 'TV5 Monde Cyber Caliphate', 'EFF Attack', 'DNC Hack', 'OpOlympics', '', 'CHOPSTICK, CORESHELL, Winexe, SOURFACE, OLDBAIT, Sofacy, XAgent, XTunnel, WinIDS, Foozer, DownRange, Sedreco Dropper, Komplex, DealersChoice, Downdelph, Sednit, USBStealer, Sedkit, HideDrv (Rootkit), LoJax', 'United States Government', '', 'Called out by DHS & FBI as responsible for cyber attacks associated with US election 2016. Allegedly attributed the first UEFI rootkit seen in the wild: LoJax (2018)'
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'APT29', 'Dukes', 'Group 100', 'Cozy Duke', 'EuroAPT', 'Cozy Bear', 'CozyCar', 'Cozer', 'Office Monkeys / TEMP.Monkeys', 'Minidionis', 'SeaDuke', 'Hammer Toss', 'Fritillary', 'IRON HEMLOCK', 'Operation Ghost', '', '', '', '', '', '', 'Hammertoss, OnionDuke, CosmicDuke, MiniDuke, CozyDuke, SeaDuke, SeaDaddy implant developed in Python and compiled with py2exe, AdobeARM, ATI-Agent, MiniDionis, Grizzly Steppe, Vernaldrop, Tadpole, Spikerush, POSHSPY, PolyglotDuke, RegDuke, FatDuke', 'This threat actor targets government ministries and agencies in Europe, the US, Central Asia, East Africa, and the Middle East, associated with DNC attacks', 'Phishing emails', 'Active campaign post 2016 US presidential election'
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Turla Group', 'Snake', 'Venomous Bear', 'Group 88', 'Waterbug', 'Turla Team', 'Krypton', 'Uroburos', 'SIG23', 'MAKERSMARK', '', '', '', 'IRON HUNTER', 'Satellite Turla', 'Epic Turla', 'The \'Penquin\' Turla', 'Witchcoven', 'RUAG hack', 'Mosquito', 'Moonlight Maze', 'systeminfo, net, tasklist, gpresult, wce, pwdump, Uroburos, Turla, Agent.BTZ, Tavdig, Wipbot, Agent.dne, AdobeARM, ATI-Agent, MiniDionis, WhiteBear, Gazer, Neuron, Nautilus', 'Targeting several governments and sensitive businesses such as the defense industry', '', 'Turla also uses OilRigs (APT34) implants'
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Energetic Bear', 'Dragonfly', 'Crouching Yeti', 'Group 24', 'Koala Team', 'Berserk Bear', 'Anger Bear', 'Dymalloy', 'Havex', 'PEACEPIPE', 'Fertger', '', '', 'IRON LIBERTY', '', '', '', '', '', '', '', 'Havex RAT, Oldrea, LightsOut ExploitKit, Inveigh, PsExec, Persistence through .LNK file manipulations, Nmap, Dirsearch, Sqlmap, Sublist3r, Wpscan, Impacket, SMBTrap, Commix, Subbrute, PHPMailer, Web Shells (PHP), MCMD', 'This threat actor targets companies in the education, energy, construction, information technology, and pharmaceutical sectors for the purposes of espionage. It uses malware tailored to target industrial control systems. Energy, Middle East oil and natural gas as the goal, dedicated to gather relevant information, technology company in Western Europe that produces civil, military and critical infrastructure communications equipment', 'Active', 'Detected in Middle East networks in 2014, Compromise via spear phish or SWC, Motivation somewhat unclear'
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Sandworm', 'Sandworm Team', 'TEMP.Noble', 'Electrum', 'TeleBots', 'Quedagh Group', 'BE2 APT', 'Black Energy', 'Iridium', '', '', '', '', 'IRON VIKING', 'Black Energy', 'Ukrenergo', 'NPetya, NotPetya', '', '', '', '', 'CVE-2014-4114, Industroyer, CrashOverride', 'This threat actor targets industrial control systems, using a tool called Black Energy, associated with electricity and power generation for espionage, denial of service, and data destruction purposes.', '', 'Linked to Kiev Dec2016 ICS cyberattack'
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'FIN7', 'Carbanak', 'Anunak', 'Carbon Spider', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'PowerSource', 'Bank of Valetta, Malta', '', 'Overlaps with Carbanak (but not the same group)', ''
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'FIN8', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'PowerSniff, PUNCHBUGGY, PUNCHTRACK, ShellTea, BADHATCH, PoSlurp', 'Hotel-Entertainment Industry, POS malware attack', '', ''
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Inception Framework', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Red October', 'Cloud Atlas', '', '', '', '', '', '', 'This threat actor targets governments and diplomatic organizations for espionage purposes. Suspected Operator in Ukraine working for Russia or its allies.', '', ''
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'TeamSpy Crew', 'SIG39', '', '', '', '', '', '', '', '', '', '', '', '', 'TeamSpy', '', '', '', '', '', '', 'Malicious TeamViewer versions, JAVA RATs', 'This threat actor primarily compromises government entities and human rights activists in Eastern Europe and Central Asia for espionage purposes. It has also compromised private and public sector entities in the Middle East and in Western countries.', '', ''
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'BuhTrap', 'Ratopak', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'AmmyAdmin, LURK, NSIS, Mimikatz, CVE-2012-0158, PuntoSwitcher (like Keylogger)', '', '', ''
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Carberb', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'USA', '', ''
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'???', '', '', '', '', '', '', '', '', '', '', '', '', '', 'RUAG Espionage', '', '', '', '', '', '', 'Turla Family, Uroburos, Snake (Carbon) Rootkit, Tavdig/Wipbot/Epic, Mimikatz, dsquery, dsget', 'Swiss defence department', '', ''
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'FSB 16th & 18th Centers', 'Gamaredon Group', 'BlueAlpha', '', '', '', '', '', '', '', '', '', '', '', 'OP Armageddon', 'Op Gamework', '', '', '', '', '', '', '', '', 'Hijack infrastructure of Iranian APT33, APT35 & Muddywater'
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Cyber Berkut', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Bellingcat', '', 'During Ukrainian Revolution'
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'WhiteBear', 'Skipper Turla', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Kopiluwak', 'Embassies and diplomatic/foreign affair organizations, defense-related organizations', '', 'Associated with Turla'
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'???', '', '', '', '', '', '', '', '', '', '', '', '', '', 'BugDrop', '', '', '', '', '', '', '', 'This threat actor targets critical infrastructure entities in the oil and gas sector, primarily in Ukraine. The threat actors deploy the BugDrop malware to remotely access the microphones in their targets' computers to eavesdrop on conversations.', '', ''
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'GRU GTsST (Main Center for Special Technology)', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'NotPetya', '', '', ''
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'VOODOO BEAR', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'OlympicDestroyer, GreyEngergy Mini as their 1st-stage implant, GCat', 'Ukrainian energy sector, Eastern Europe', '', ''
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'TEMP.Veles', 'Xenotime', 'Triton', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Triton', 'Oil refinery, other infrastructure', '', ''
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Zebrocy', 'Zebrocy', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Germany, Indonesia, the United States, Taiwan, India, France, Serbia, Ecuador, Argentina, South Korea, Japan, China, Britain, South Africa, Italy, Hong Kong, Romania, Ukraine, Macedonia, Russia, Switzerland, Senegal, the Philippines, UAE, Qatar, Saudi Arabia, Pakistan, Thailand, Bahrain, Turkey, Bulgaria, Bangladesh', '', ''
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'SectorJ04', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'TTP indicates possibly TA505'
+);
+
+INSERT INTO Russia(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Other_Name_9, Other_Name_10, Other_Name_11, Other_Name_12, Secureworks, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'FullofDeep', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'QNAPCrypt ransomware', '', '', 'Operates from Union State & Ukraine'
+);

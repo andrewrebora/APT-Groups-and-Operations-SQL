@@ -1,0 +1,88 @@
+﻿CREATE TABLE DPRK(
+Common_Name VARCHAR(800),
+CrowdStrike VARCHAR(800),
+Talos_Group VARCHAR(800),
+Dell_Secure_Works VARCHAR(800),
+Other_Name_1 VARCHAR(800),
+Other_Name_2 VARCHAR(800),
+Other_Name_3 VARCHAR(800),
+Other_Name_4 VARCHAR(800),
+Other_Name_5 VARCHAR(800),
+Other_Name_6 VARCHAR(800),
+Other_Name_7 VARCHAR(800),
+Other_Name_8 VARCHAR(800),
+Rep_of_Korea_FSI VARCHAR(800),
+Operation_1 VARCHAR(800),
+Operation_2 VARCHAR(800),
+Operation_3 VARCHAR(800),
+Operation_4 VARCHAR(800),
+Operation_5 VARCHAR(800),
+Operation_6 VARCHAR(800),
+Operation_7 VARCHAR(800),
+Operation_8 VARCHAR(800),
+Operation_9 VARCHAR(800),
+Toolset__Malware VARCHAR(800),
+Targets VARCHAR(800),
+Modus_Operandi VARCHAR(800),
+Comment VARCHAR(800)
+);
+
+INSERT INTO DPRK(Common_Name, CrowdStrike, Talos_Group, Dell_Secure_Works, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Rep_of_Korea_FSI, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Operation_8, Operation_9, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Lazarus Group', 'Labyrinth Chollima', 'Group 77', 'Hastati Group', 'Bureau 121', 'Unit 121', 'Whois Hacking Team', 'NewRomanic Cyber Army Team', 'Zinc', 'Appleworm', 'Hidden Cobra', 'Nickel Academy', '', 'Troy', 'Blockbuster', 'Dark Seoul', 'Applejeus', '', '', '', '', '', 'Tdrop, Tdrop2, Troy, Destover, FallChill RAT, Volgmer, Hawup, Manuscrypt, WolfRAT, SheepRAT, HtDnDownLoader', 'Believed to be responsible for Dark Seoul, Ten Days of Rain, the Sony Pictures Entertainment attack, the SWIFT-related bank heists, and WannaCry. Known to the U.S. government as Hidden Cobra. Targeting also BitCoin Exchanges, financial sector, technology/engineering sector', 'Delivery: usually via spear phishing email. Infrastructure: C2 often based on compromised servers,moving to own servers paid by bitcoin to preserve anonymity Persistency: tipically launching ransomware after operation to destroy evidences', 'Threat Recon.nshc.net alias=SectorA01'
+);
+
+INSERT INTO DPRK(Common_Name, CrowdStrike, Talos_Group, Dell_Secure_Works, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Rep_of_Korea_FSI, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Operation_8, Operation_9, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Group123', 'Ricochet Chollima', 'Group 123', '', 'ScarCruft', 'Red Eyes', 'Reaper', 'APT37', 'Venus 121 (금성121)', '', '', '', '', 'Reaper', 'Erebus', 'Golden Time', 'Evil New Year', 'Are you Happy?', 'FreeMilk', 'North Korean Human Rights', 'Evil New Year 2018', '', 'KARAE, SOUNDWAVE, ZUMKONG, RICECURRY, CORALDECK, POORAIM, SLOWDRIFT, MILKDROP, GELCAPSULE, DOGCALL, HAPPYWORK, RUHAPPY, SHUTTERSPEED, Flash Exploit CVE-2016-4117, ROKRAT, KEVDROID, BabyShark, KimJongRAT', 'Primarily South Korea – though also Japan, Vietnam and the Middle East – in various industry verticals, including chemicals, electronics, manufacturing, aerospace, automotive, and healthcare; Scarcruft Tracking: Russia, Nepal, South Korea, China, India, Kuwait and Romania', '', 'FireEye iSIGHT Intelligence believes that APT37 is aligned with the activity publicly reported as Scarcruft and Group123'
+);
+
+INSERT INTO DPRK(Common_Name, CrowdStrike, Talos_Group, Dell_Secure_Works, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Rep_of_Korea_FSI, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Operation_8, Operation_9, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'DarkHotel', '', '', '', 'Luder', 'Karba', 'Tapaoux', 'Nemim', 'APT-C-06', 'SIG25', 'Dubnium', 'Fallout Team', '', 'Dark Hotel', 'Inexsmar', 'Daybreak', 'Wizard Opium', 'Higaisa', '', '', '', '', 'Win32.Karba, Win32.Pioneer, CVE-2015-8651, Asruex,  CVE-2012-0158, CVE-2010-2883, CVE-2016-4171 and CVE-2018-817', 'Japan, Taiwan, China, Russia, and South Korea, North Korea. Government, Utilities, High-Tech, Automotive', 'Information on Chinese forum indicating group may have targeted CVE-2015-8651, most likely a South Korean actor', ''
+);
+
+INSERT INTO DPRK(Common_Name, CrowdStrike, Talos_Group, Dell_Secure_Works, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Rep_of_Korea_FSI, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Operation_8, Operation_9, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Andariel', 'Silent Chollima', '', '', '', '', '', '', '', '', '', '', 'Andariel', 'Campaign Rifle', 'DesertWolf', 'Vanxatm', 'Mayday', 'INITROY', 'XEDA', 'Sony', '', '', 'RifDoor, Phandoor', 'Information gathering and profit', '', 'Lazarus subgroup'
+);
+
+INSERT INTO DPRK(Common_Name, CrowdStrike, Talos_Group, Dell_Secure_Works, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Rep_of_Korea_FSI, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Operation_8, Operation_9, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Kimsuki', 'Velvet Chollima', '', '', 'Kimsuky', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'KPortScan, PsExec, Procdump, Mimikatz, Eternal suite of exploits, NirSoft MailPassView/Network Password Recovery/Remote Desktop PassView/SniffPass/WebBrowserPassView, Mechanical, Grease', 'This threat actor targets South Korean think tanks, industry, nuclear power operators, and the Ministry of Unification for espionage purposes.', '', ''
+);
+
+INSERT INTO DPRK(Common_Name, CrowdStrike, Talos_Group, Dell_Secure_Works, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Rep_of_Korea_FSI, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Operation_8, Operation_9, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'NoName', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'malware with name mySingleMessenger.exe', '', '', 'NorthKorea vs Samsung'
+);
+
+INSERT INTO DPRK(Common_Name, CrowdStrike, Talos_Group, Dell_Secure_Works, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Rep_of_Korea_FSI, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Operation_8, Operation_9, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'OnionDog', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'This threat actor targets the South Korean government, transportation, and energy sectors.', '', 'False Positive. APT Training by SK Government'
+);
+
+INSERT INTO DPRK(Common_Name, CrowdStrike, Talos_Group, Dell_Secure_Works, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Rep_of_Korea_FSI, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Operation_8, Operation_9, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'TEMP.Hermit', '', '', '', 'APT38', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'VOLGMER, PEACHPIT', 'Korean Peninsula, US Aerospace, SWIFT-fraud operations in East Asia', '', ''	
+);
+
+INSERT INTO DPRK(Common_Name, CrowdStrike, Talos_Group, Dell_Secure_Works, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Rep_of_Korea_FSI, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Operation_8, Operation_9, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'?', '', '', '', '', '', '', '', '', '', '', '', '', 'Honeybee', '', '', '', '', '', '', '', '', 'MaoCheng Dropper', 'Humanitarian Aid Groups', '', ''
+);
+
+INSERT INTO DPRK(Common_Name, CrowdStrike, Talos_Group, Dell_Secure_Works, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, Other_Name_6, Other_Name_7, Other_Name_8, Rep_of_Korea_FSI, Operation_1, Operation_2, Operation_3, Operation_4, Operation_5, Operation_6, Operation_7, Operation_8, Operation_9, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Stardust Chollima', 'Stardust Chollima', '', '', 'APT38', 'ElectricFish', 'BlueNoroff', '', '', '', '', '', '', 'FASTCash', 'Far Eastern International Bank', '', '', '', '', '', '', '', 'Dimens, MBR Killer, ElectricFish', 'Latin America, Mexico, Costa Rica, Chile, Argentina, financial institutions in Asia and Africa in 2018', '', ''
+);

@@ -1,0 +1,31 @@
+﻿CREATE TABLE Israel(
+Common_Name VARCHAR(1000),
+Other_Name_1 VARCHAR(1000),
+Other_Name_2 VARCHAR(1000),
+Other_Name_3 VARCHAR(1000),
+NSA VARCHAR(1000),
+Operation_1 VARCHAR(1000),
+Operation_2 VARCHAR(1000),
+Toolset__Malware VARCHAR(1000),
+Targets VARCHAR(1000),
+Modus_Operandi VARCHAR(1000),
+Comment VARCHAR(1000)
+);
+
+INSERT INTO Israel(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, NSA, Operation_1, Operation_2, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Unit 8200', '', '', '', '', 'Olympic Games / Stuxnet', '', 'Stuxnet', 'Directed at Iranian nuclear facilities', 'Stuxnet is typically introduced to the target environment via an infected USB flash drive.', ''
+);
+
+INSERT INTO Israel(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, NSA, Operation_1, Operation_2, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Unit 8200', 'Duqu Group', '', '', 'SIG35', 'Duqu 2.0', '', '', 'A threat actor, using a tool dubbed Duqu 2.0, targeted individuals and companies linked to the P5+1 (the five permanent member states of the UN Security Council, plus Germany), which was conducting negotiations on Irans nuclear program.', '', ''
+);
+
+INSERT INTO Israel(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, NSA, Operation_1, Operation_2, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'SunFlower', 'MoonFlower', 'Cheshire Cat', 'Flowershop', 'SIG17 / SIG18', '', '', '', '', '', 'Might be related to Duqu, Stuxnet and might attributed to Israel.'
+);

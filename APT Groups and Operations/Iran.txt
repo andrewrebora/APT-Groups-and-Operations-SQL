@@ -1,0 +1,174 @@
+﻿CREATE TABLE Iran(
+Common_Name VARCHAR(1000),
+Other_Name_1 VARCHAR(1000),
+Other_Name_2 VARCHAR(1000),
+Other_Name_3 VARCHAR(1000),
+Other_Name_4 VARCHAR(1000),
+Other_Name_5 VARCHAR(1000),
+FireEye_Name VARCHAR(1000),
+Crowdstrike VARCHAR(1000),
+Cisco_Name VARCHAR(1000),
+Operation_1 VARCHAR(1000),
+Operation_2 VARCHAR(1000),
+Operation_3 VARCHAR(1000),
+Toolset__Malware VARCHAR(1000),
+Targets VARCHAR(1000),
+Modus_Operandi VARCHAR(1000),
+Comment VARCHAR(1000)
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Cutting Kitten', 'TG-2889', 'Ghambar', 'COBALT GYPSY', '', '', '', 'Cutting Kitten', '', 'Cleaver', '', '', 'TinyZBot, PupyRAT', 'This threat actor targets governments and private sector entities for espionage and sabotage purposes. It is believed to be responsible for compromising U.S. Navy computers at the Navy Marine Corps Intranet in San Diego, the U.S. energy company Calpine Corporation, Saudi Aramco, Pemex, Qatar Airways, and Korean Air', '', 'COBALT GYPSY overlap with OilRig'
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Shamoon', '', '', '', '', '', '', 'Volatile Kitten', '', '', '', '', 'Shamoon / Disttrack', 'This threat actor targets energy sector, oil and gas industry as well as transportation and telecommunication services.', 'wiper', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Clever Kitten', '', '', '', '', '', '', 'Clever Kitten', 'Group 41', '', '', '', 'Acunetix Web Vulnerability Scanner, PHP Webshell RC SHELL', '', '', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Madi', '', '', '', '', '', '', '', '', '', '', '', '', 'This threat actor compromises engineering firms, government entities, and financial and academic institutions in the United States, Israel, Iran, and Pakistan', 'Social engineering', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Cyber fighters of Izz Ad-Din Al Qassam', '', 'Fraternal Jackal', '', '', '', '', '', '', 'Ababil / ApAbabil', '', '', '', 'The websites of Bank of America, JPMorgan Chase, Wells Fargo, and other U.S. financial institutions suffered simultaneous outages due to a coordinated denial of service cyberattack in September 2012. Attackers flooded bank servers with junk traffic, preventing users from online banking. An Iranian group called Izz ad-Din al-Qassam Cyber Fighters initially claimed responsibility for the incident. At the time, the media reported that U.S. intelligence believed the denial of service was in response to U.S. imposed economic sanctions to counter Irans nuclear program. Seven Iranian individuals linked to the Islamic Revolutionary Guard Corps were eventually indicted by the U.S. Department of Justice in 2016 for their involvement in the incident.', 'DoS', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Chafer', 'Cadelle', 'ITG07', '', '', '', 'APT39', 'Remix Kitten', '', '', '', '', 'Remexi, PsExec, Mimikatz, Web Shells (aspx spy, b374k), nbtscan, plink, RemCom, VNC Bypass scanner, CoreSecurity tools, Impacket / Python exploits, NSSM, Remcom, HTTPTunnel, Cadelspy, PLink, SSH Tunnels to Windows Servers', 'Airlines, Airports, Transportation, Logistics - worldwide', '', 'Uses the same C2 infrastructure as OilRig'
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Prince of Persia', '', '', '', '', '', '', '', '', '', '', '', 'Infy', 'This threat actor targets governments and businesses of multiple countries, including the United States, Israel, and Denmark.', '', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Sima', '', '', '', '', '', '', '', '', '', '', '', '', 'Focus on dissidents, woman rights activists, human rights organizations', '', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Oilrig', 'COBALT GYPSY', 'Twisted Kitten', 'Crambus', 'ITG13', 'Chrysene', 'APT34', 'Helix Kitten', '', '', '', '', 'Helminth, ISMDoor, Clayslide, QUADAGENT, OopsIE, ALMA Communicator, customized Mimikatz, Invoke-Obfuscation,POWBAT, POWRUNER (PS Backdoor), BONDUPDATER, malicious RTF files CVE-2017-0199 and CVE-2017-11882, ELVENDOOR, PLink, PsExec, SSH Tunnels to Windows Servers, Webshells (TwoFace, DarkSeaGreenShell, LittleFace), ZeroCleare', '', '', 'Uses the same C2 infrastructure as Chafer - which caused a major mixup of OilRig campaigns falsely attributed to Chafer. Also note that Turla used OilRigs implants'
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'CopyKittens', 'Slayer Kitten', 'DarkHydrus', 'LazyMeerkat', '', '', '', '', '', 'Wilted Tulip', '', '', 'TDTESS backdoor, Vminst, NetSrv, Cobalt Strike, ZPP, Matryoshka v1 and Matryoshka v2', 'Israel’s Ministry of Foreign Affairs and some well-known Israeli academic researchers specializing in Middle East Studies. Israel, Saudi Arabia, United States, Jordan, Germany', '', 'DarkHydrus C2 Infra Overlap'
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Charming Kitten', 'Parastoo', 'iKittens', 'NEWSCASTER', 'NewsBeef', 'Phosphorus', 'APT35', 'Charming Kitten', 'Group 83', '', '', '', 'ALFA TEaM Shell, DROPSHOT, TURNEDUP, SHAPESHIFT, malicious HTA files, MacDownloader', 'This threat actor uses watering hole attacks and fake profiles to lure targets from the U.S. government for espionage purposes.', 'Fake Social Media Account', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Greenbug', '', '', '', '', '', '', '', '', '', '', '', 'ISMdoor', 'Saudi Arabia', '', 'Sub group of APT34 according to Mandiant'
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Magic Hound', 'Timberworm', 'MAGNALLIUM', 'Elfin', 'Refined Kitten', 'Holmium', 'APT33', '', '', 'Stonedrill/ Shamoon2.0', '', '', 'Shamoon, POWERTON, Ruler, PUPYRAT, POSHC2 (.NET backdoor), TURNEDUP, AutoIt backdoor, Gpppassword, LaZagne, Quasar RAT, Remcos, SniffPass, DarkComet, AutoIt FTP tool, .NET FTP tool, PowerShell downloader (registry.ps1), POSHC2 backdoor', 'A threat actor used malware known as Shamoon 2.0 to exfiltrate and delete data from computers in the Saudi transportation sector.', '', 'Possibly associated with Rocket Kitten and Cobalt Gypsy, Sandcat'
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Rocket Kitten', 'Flying Kitten', 'TEMP.Beanie', 'Saffron Rose', 'Ajax Security Team', '', '', 'Rocket Kitten', 'Group 26', 'Woolen Goldfish', 'Thamar Reservoir', '', 'GHOLE / Core Impact, CWoolger, FireMalv, .NETWoolger, MPK, Open source tools, Puppy RAT, MagicHound.Leash (IRC Bot)', 'Saudi Arabia, Israel, US, Iran, high ranking defense officials, embassies of various target countries, notable Iran researchers, human rights activists, media and journalists, academic institutions and various scholars, including scientists in the fields of physics and nuclear sciences. It seeks out material related to diplomacy, defense, security, journalism, and human rights for espionage purposes.', '', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'?', '', '', '', '', '', '', '', '', 'Mermaid', '', '', '', 'This threat actor is based in the Middle East (possibly Iran) and targets English- and Persian-language organizations. It is alleged to be the same group behind a compromise of the Danish Ministry of Foreign Affairs.', '', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'ITSecTeam', '', '', '', '', '', '', '', '', '', '', '', '', 'One of the threat actors responsible for the denial of service attacks against U.S in 2012/2013. Three individuals associated with the group believed to be have been working on behalf of Irans Islamic Revolutionary Guard Corps were indicted by the Justice Department in 2016.', '', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'MuddyWater', 'TEMP.Zagros', 'Seedworm', '', 'SectorD02', '', '', 'Static Kitten', '', 'BlackWater', '', '', 'POWERSTATS, PoweMuddy, LaZagne, Crackmapexec', 'individuals in Asia and the Middle East, government and defense entities in Central and Southwest Asia', '', 'Struggle with Kaspersky '
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Mabna Institute', 'Silent Librarian', 'TA407', 'Cobalt Dickens', '', '', '', '', '', '', '', '', '', '144 universities in the United States, 176 foreign universities in 21 countries, five federal and state government agencies in the United States, 36 private companies in the United States, 11 foreign private companies, and two international non-governmental organizations', '', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Leafminer', 'Raspite', '', '', '', '', '', '', '', '', '', '', '', '', '', 'No evidence of overlapping Oilrig'
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'DarkHydrus', '', '', '', '', '', '', '', '', '', '', '', 'RogueRobin', '', '', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Domestic Kitten', '', '', '', '', '', '', 'Domestic Kitten', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Flash Kitten', '', '', '', '', '', '', '', '', '', '', '', '', 'MENA Region', '', 'long-running SWC campaigns from December 2016 until public disclosure in July 2018'
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Gold lowell', 'Boss Spider', '', '', '', '', '', '', '', '', '', '', 'SamSam', '', '', 'Criminal'
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Iridium', '', '', '', '', '', '', '', '', 'Australian Parliament Hack', 'Citrix Hack', '', 'China Chopper / Ckife Webshells, LazyCat, reGeorge', '', '', 'Nothing confirmed yet'
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'DNSpionage', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO Iran(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Other_Name_5, FireEye_Name, Crowdstrike, Cisco_Name, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Tortoiseshell', '', '', '', '', '', 'APT35', 'Imperial Kitten', '', '', '', '', 'Backdoor.Syskit,  Poison Frog, Infostealer/Sha.exe/Sha432.exe, Infostealer/stereoversioncontrol.exe, get-logon-history.ps1', 'IT providers in Saudi Arabia', '', 'Inconclusive link to OilRig/APT34'
+);

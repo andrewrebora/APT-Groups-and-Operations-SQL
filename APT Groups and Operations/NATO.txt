@@ -1,0 +1,47 @@
+﻿CREATE TABLE NATO(
+Common_Name VARCHAR(1000),
+Other_Name_1 VARCHAR(1000),
+Other_Name_2 VARCHAR(1000),
+Other_Name_3 VARCHAR(1000),
+Other_Name_4 VARCHAR(1000),
+Symantec VARCHAR(1000),
+Kaspersky VARCHAR(1000),
+Operation_1 VARCHAR(1000),
+Operation_2 VARCHAR(1000),
+Operation_3 VARCHAR(1000),
+column_10 VARCHAR(1000),
+Toolset__Malware VARCHAR(1000),
+Targets VARCHAR(1000),
+Modus_Operandi VARCHAR(1000),
+Comment VARCHAR(1000)
+);
+
+INSERT INTO NATO(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Symantec, Kaspersky, Operation_1, Operation_2, Operation_3, column_10, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Equation Group', 'Tilded Team', 'EQGRP', 'Housefly', 'Remsec', 'Longhorn', 'Lamberts', 'Socialist', 'Olympic Games / Stuxnet', 'Project Sauron / Strider', 'Shadow Brokers Data Dump', 'Regin, Flame, Stuxnet, EquationLaser, EquationDrug, DoubleFantasy, TripleFantasy, Fanny, Grayfish, RemSec, Gauss, Duqu', '', '', 'NSA, GCHQ, CSIS, ASIS, GCSB, FiveEyes, FVEY'
+);
+
+INSERT INTO NATO(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Symantec, Kaspersky, Operation_1, Operation_2, Operation_3, column_10, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Snowglobe', 'Animal Farm', '', '', '', '', '', '', '', '', '', 'Babar, Bunny, Dino, Casper, Tafacalou, NBot, Chocopop', '', '', 'Probably French origins'
+);
+
+INSERT INTO NATO(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Symantec, Kaspersky, Operation_1, Operation_2, Operation_3, column_10, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Slingshot', '', '', '', '', '', '', 'Mikrotik Router Compromise', '', '', '', 'Slingshot, Cahnadr, GollumApp, SsCB, ffproxy, NeedleWatch, Sfc2, Minisling, Spork downloader', 'Kenya, Yemen, Libya, Afghanistan, Iraq, Tanzania, Jordan, Mauritius, Somalia, Democratic Republic of the Congo, Turkey, Sudan and United Arab Emirates', '', ''
+);
+
+INSERT INTO NATO(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Symantec, Kaspersky, Operation_1, Operation_2, Operation_3, column_10, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'GOSSIPGIRL', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO NATO(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Symantec, Kaspersky, Operation_1, Operation_2, Operation_3, column_10, Toolset__Malware, Targets, Modus_Operandi, Comment)
+VALUES
+(
+'Unknown', '', '', '', '', '', '', 'Project Tajmahal', '', '', '', '', '', '', ''
+);

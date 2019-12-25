@@ -1,0 +1,193 @@
+﻿CREATE TABLE UnknownUnmapped_Actors(
+Common_Name VARCHAR(1000),
+Other_Name_1 VARCHAR(1000),
+Other_Name_2 VARCHAR(1000),
+Other_Name_3 VARCHAR(1000),
+Other_Name_4 VARCHAR(1000),
+Operation_1 VARCHAR(1000),
+Operation_2 VARCHAR(1000),
+Operation_3 VARCHAR(1000),
+Toolset__Malware VARCHAR(1000),
+Targets VARCHAR(1000),
+Comment VARCHAR(1000)
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Crouching Yeti', '', '', '', '', '', '', '', '', '', 'Links to Energetic Bear'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'NewRomanic Cyber Army Team', '', '', '', '', '', '', '', 'Whois Wiper', '', ''
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'The Whois Hacking Team', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'ItaDuke', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Roaming Tiger', '', '', '', '', 'Roaming Tiger', 'TOPNEWS', '', '"SOGU', ' GHOST', ' TEMPFUN'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Blue Termite', 'Emdivi', 'Cloudy Omega', '', '', 'Blue Termite', '', '', 'Emdivi', 'This threat actor is believed to have been responsible for the Japan Pension Service incident. It is also known as Emdivi and Cloudy Omega.', 'Possible link to APT10'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Suckfly', '', '', '', '', '', '', '', 'tcpscan, smbscan, wce, gsecdump, credentialdumper', 'South Korea, India', 'Alleged to be China based'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'?', '', '', '', '', 'Groundbait', '', '', 'Win32/Prikormka', '', ''
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'SPIVY', '', '', '', '', '', '', '', 'PoisonIvy, CVE-2015-2545', 'Organizations in Hong Kong', ''
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'EvilPost', '', '', '', '', '', '', '', 'CVE-2015-2545', 'Japanese Defence Sector', 'C2 Server in Japan'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Danti', '', '', '', '', '', '', '', 'CVE-2015-2545', 'Kazakhstan, Kyrgyzstan, Uzbekistan, Myanmar, Nepal and the Philippines', 'Probably related to NetTraveller and DragonOK'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'?', '', '', '', '', 'IronGate', '', '', '', 'Industrial Control Systems (ICS)', 'MitM, Sandbox Evasion'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Evanescent Bat', '', '', '', '', '', '', '', '', '', 'Tracked by Crowdstrike'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'NewsBeef', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Poseidon', '', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Ghoul', '', '', '', '', 'Operation Ghoul', '', '', '', 'Mainly industrial, engineering and manufacturing organizations in more than 30 countries', 'Financial interests'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'FruityArmor', '', '', '', '', '', '', '', 'MS16-120 / CVE-2016-3393 0day exploits, 0day CVE-2018-8453, PowerShell backdoor, CVE-2018-8611', 'Middle Eastern region', ''
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Snake Wine', '', '', '', '', '', '', '', 'Ham Backdoor, Tofu Backdoor', 'Japanese Targets', 'Tracked by Cylance'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'APT5', 'Maganese', '', '', '', '', '', '', 'Leouncia', 'Telecommunications and technology companies, particularly in Southeast Asia, as well as high-tech manufacturing firms and military application technology', ''
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Sowbug', '', '', '', '', '', '', '', 'Felismus', 'South American and Southeast Asian governments', 'Tracked by Symantec'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Triton', 'TRISIS', '', '', '', '', '', '', '', '', ''
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'?', '', '', '', '', 'Olympic Destroyer', '', '', 'Olympic Destroyer (destructive malware), PsExec', 'Winter Olympics in Pyeongchang, South Korea; adversaries looking for information from the games but instead they are aimed to disrupt the games', 'Highly sophisticated false flag'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Orangeworm', '', '', '', '', '', '', '', 'Kwampirs backdoor', 'Known victims include healthcare providers, pharmaceuticals, IT solution providers for healthcare and equipment manufacturers that serve the healthcare industry, likely for the purpose of corporate espionage', 'Possibly FIN10 Tracked by Symantec cybercriminal'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'FIN10', '', '', '', '', '', '', '', '', 'Casinos and mining (natural resources)', 'cybercriminal'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'BlackTech', '', '', '', '', 'PLEAD', 'Shrouded Crossbow', 'Waterbear', '', 'Targets in East Asia, particularly Taiwan, and occasionally, Japan and Hong Kong', '"PLEAD" and Waterbear labels apply to actors, malware, and operations'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'White Company', '', '', '', '', 'Shaheen', '', '', '', 'Pakistani government and military — in particular, the Pakistani Air Force', ''
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Silence Group', '', '', '', '', '', '', '', 'Malicious CHM files, Truebot', 'Targets are located in Eastern Europe and Russia', ''
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Whitefly', '', '', '', '', 'SingHealth', '', '', 'CVE-2016-0051, Vcrodat, Nibatad, Termite, Mimikatz', 'Healthcare, media, telecommunications, and engineering sectors. Singapore', 'Has been seen targeting organisations based in Singaport and additionally some multinational organizations with a presence in Singapore.'
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'Roaming Mantis', 'Shaoye', '', '', '', '', '', '', 'Malicious APK', 'Russia, Japan, India, Bangladesh, Kazakhstan, Azerbaijan, Iran, and Vietnam', ''
+);
+
+INSERT INTO UnknownUnmapped_Actors(Common_Name, Other_Name_1, Other_Name_2, Other_Name_3, Other_Name_4, Operation_1, Operation_2, Operation_3, Toolset__Malware, Targets, Comment)
+VALUES
+(
+'LYCEUM', 'HEXANE', '', '', '', '', '', '', 'DanBot, DanDrop, Invoke-Obfuscation, PowerShell, PoshC2', 'Middle East, Kuwait, South Africa', 'Most likely Iranian group'
+);

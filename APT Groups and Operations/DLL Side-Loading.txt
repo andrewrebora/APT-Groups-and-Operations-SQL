@@ -1,0 +1,211 @@
+﻿CREATE TABLE DLL_SideLoading(
+Executable_original_name VARCHAR(800),
+DLL VARCHAR(800),
+Product VARCHAR(800),
+Vendor VARCHAR(800),
+Actor VARCHAR(800)
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'WinwordUpdates.exe', 'wwlib.dll', '', 'Microsoft', 'Ocean Lotus / APT32'
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'thinprobe.exe', 'thinhostprobedll.dll', 'pcAnywhere Thinprobe Application', 'Symantec', 'Emissary Panda'
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'fakerx86.exe', 'dbgeng.dll', 'Symbolic debugger for Microsoft Windows', 'Microsoft', 'APT19 / C0d0so0'
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'Chrome.exe', 'chrome_frame_helper.dll', 'Chrome browser', 'Google', 'APT3 / Gothic Panda'
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'searchindexer.exe, searchprotoclhost.exe', 'msfte.dll', '', '', 'Ocean Lotus / APT32'
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'googleupdate.exe', 'goopdate.dll', 'Google Update', 'Google', 'Ocean Lotus / APT32'
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'avpia.exe', 'product_info.dll', 'Kaspersky’s Avpia', 'Kaspersky', 'Ocean Lotus / APT32'
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'NvSmart.exe', 'NvSmartMax.dll', 'NVIDIA Smart Maximise Helper Host', 'Nvidia', 'many different actors'
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'mcvsmap.exe', '', '', 'McAfee', 'many different actors'
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'RASTLS.EXE', '', '', 'Symantec', 'many different actors'
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'hcc.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'hkcmd.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'Mc.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'MsMpEng.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'msseces.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'OInfoP11.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'OleView.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'rc.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'LOLWLauncher.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'fsstm.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'AShld.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'fsguidll.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'mcf.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'mcupdui.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'mcut.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'ACLUI.DLL', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'POETWLauncher.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'RunHelp.exe', 'ssMUIDLL.dll', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'sep_NE.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'setup.dll', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'tplcdclr.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'Ushata.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'mcvsmap.exe', '', '', '', ''
+);
+
+INSERT INTO DLL_SideLoading(Executable_original_name, DLL, Product, Vendor, Actor)
+VALUES
+(
+'OINFO11.exe', 'Oinfo11.ocx', '', '', ''
+);
